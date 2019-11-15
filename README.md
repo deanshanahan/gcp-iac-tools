@@ -1,6 +1,6 @@
 ### Circle CI Status: [![CircleCI](https://circleci.com/gh/deanshanahan/gcp-iac-tools.svg?style=svg)](https://circleci.com/gh/deanshanahan/gcp-iac-tools)
 
-<img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiD4d_lzOnlAhWQAWMBHfeEDW0QjRx6BAgBEAQ&url=https%3A%2F%2Fcloud.google.com%2F&psig=AOvVaw1AyiT6Iocvhp3HHYh9f39W&ust=1573817387553229" width="400">
+<img src="https://www.pixitmedia.com/wp-content/uploads/2019/09/google_lockup_cloud_rgb.png" width="400">
 
 # [gcp-iac-tools](https://hub.docker.com/repository/docker/deanshanahan/gcp-iac-tools)
 
