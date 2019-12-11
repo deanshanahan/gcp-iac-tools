@@ -25,6 +25,12 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cl
     cat /etc/yum.repos.d/kubernetes.repo && \
     yum -y install kubectl
 
+# Install kubemci
+RUN yum -y update && yum -y install wget && \
+    wget https://storage.googleapis.com/kubemci-release/release/latest/bin/linux/amd64/kubemci && \
+    chmod 777 kubemci && \
+    mv kubemci /usr/local/bin
+
 # Install Terraform
 RUN yum -y update && yum -y install wget unzip && \
     wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
