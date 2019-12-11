@@ -1,6 +1,6 @@
 FROM centos:7
 
-ARG TERRAFORM_VERSION="0.12.12"
+ARG TERRAFORM_VERSION="0.12.17"
 
 # Install google-cloud-sdk
 RUN sh -c 'echo -e "[google-cloud-sdk] \n\
