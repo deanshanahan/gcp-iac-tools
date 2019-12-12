@@ -1,0 +1,2 @@
+generalwhitelist:
+  CVE-2019-11729: nss
