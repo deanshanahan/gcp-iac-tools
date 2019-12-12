@@ -1,2 +1,2 @@
 generalwhitelist:
-  CVE-2019-11729: nss
+  RHSA-2019:4190: nss
