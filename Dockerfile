@@ -38,3 +38,7 @@ RUN yum -y update && yum -y install wget unzip && \
 
 # Install Ansible
 RUN yum -y update && yum -y install ansible
+
+ENV GOOGLE_APPLICATION_CREDENTIALS '/credential.json'
+
+ENTRYPOINT ["bash", "-c", "echo $GCP_SERVICE_KEY > /credential.json && bash"]
